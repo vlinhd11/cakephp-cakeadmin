@@ -18,12 +18,12 @@ use Cake\ORM\TableRegistry;
 use Settings\Core\Setting;
 use Cake\Event\EventManager;
 use CakeAdmin\Event\CakeAdminMailer;
-use Notifier\Utility\NotificationManager;
+use Bakkerij\Notifier\Utility\NotificationManager;
 
 # Plugins
 Plugin::load('Utils', []);
 Plugin::load('Settings', ['bootstrap' => true, 'routes' => true]);
-Plugin::load('Notifier', ['bootstrap' => true, 'routes' => true]);
+Plugin::load('Bakkerij/Notifier', ['bootstrap' => true]);
 
 
 # Configurations
