@@ -38,7 +38,7 @@ class CainstallShell extends Shell
 
         // Notifier Migration
         $this->out('Migrating Notifier Tables...');
-        $this->migrate('Notifier');
+        $this->migrate('Bakkerij/Notifier');
         $this->out('<info>Migrating Notifier Tables completed!</info>');
         $this->hr();
 
