@@ -74,7 +74,7 @@ class AppController extends Controller
         $this->loadComponent('Csrf');
         $this->loadComponent('Utils.Menu');
         $this->loadComponent('CakeAdmin.PostTypes');
-        $this->loadComponent('Notifier.Notifier');
+        $this->loadComponent('Bakkerij/Notifier.Notifier');
 
         $event = new Event('CakeAdmin.Controller.afterInitialize', $this);
         EventManager::instance()->dispatch($event);
