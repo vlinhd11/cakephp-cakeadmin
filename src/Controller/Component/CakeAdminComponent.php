@@ -16,7 +16,7 @@ namespace CakeAdmin\Controller\Component;
 use Cake\Controller\Component;
 use Cake\Controller\ComponentRegistry;
 use Cake\ORM\TableRegistry;
-use Notifier\Utility\NotificationManager;
+use Bakkerij\Notifier\Utility\NotificationManager;
 
 /**
  * CakeAdmin component
